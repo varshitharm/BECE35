@@ -50,7 +50,43 @@
    Svar + ""
    Svar + Svar
    
-   
+ String class is immutable. Explain ****
+              or
+ Why String objects are immutable
+ 
+ If you try to re-intialize a string object then,
+ a new object will be created with the new value
+ & the reference variable starts pointing to new object
+ leaving old object de-referenced.
+ 
+ Advantage : If 2 ref. variables are pointing same string object
+             then changes done on the object through one reference
+             variable will not effect another reference variable. 
+ 
+ Disadvantage : If you reintialize same reference variable for n number
+                of times then it will result in creation of multiple
+                de-referenced objects which will occupy the memory space
+                and may lead to OutofMemoryError.
+                
+To overcome the disadvantage of immutable property java developers 
+created two new classes
+1. StringBuffer
+2. StringBuilder  
+  
+  
+  
+                
+                
+                
+              
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
    
    
   
