@@ -1,0 +1,11 @@
+Exception Handling
+
+* Exception is an unexpected event which occurs at Runtime due to 
+  unexpected operation performed by a single line of code
+
+* Exception handling is writing code which will recover the program
+  from the exception and continue the execution.
+
+* Error is an unexpected event which occurs at Runtime due to
+  hardware or software failure of the system.
+
