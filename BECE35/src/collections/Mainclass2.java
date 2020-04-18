@@ -1,4 +1,6 @@
-package ds;
+package collections;
+
+import java.util.ArrayList;
 
 class Shoe
 {
@@ -47,41 +49,26 @@ class Book
 
 class Cart
 {
-	Object[] crt = new Object[4];
+	ArrayList crt = new ArrayList();
 	int index = 0;
 	int count = 0;
 	
 	public void addToCart(Object obj)
 	{
-		if(index < crt.length)
-		{
-		 crt[index] = obj;
-		 index++;
-		 count++;
-		}
-		else
-		{
-		  System.out.println("cart is full");
-		}
+		crt.add(obj);
 	}
 	
 	@Override
 	public String toString() 
 	{
-	  String res = "";
+	    String res = "";
 	  
-	  if(crt[0] !=null)
-	  {
-	  
-	    for (int i = 0; i < count; i++) 
+	    for (int i = 0; i < crt.size(); i++) 
 	    {
-		  res = res +" "+crt[i]+"\n";
+		  res = res +" "+crt.get(i)+"\n";
 	    }
 	  
-	     return res;
-	  }
-	  
-	  return "cart is empty";
+      return res;
 	}
 }
 
@@ -94,7 +81,8 @@ public class Mainclass2
        Book b1 = new Book("java",250.45,"oracle");
        Shoe s1 = new Shoe("Puma",1422.4,"black");
        
-       c1.addToCart(b1);
+      
+       
          
        
        
@@ -102,6 +90,3 @@ public class Mainclass2
        
 	}
 }
-
-
-

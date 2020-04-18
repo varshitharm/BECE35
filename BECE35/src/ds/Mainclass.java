@@ -30,7 +30,7 @@ public class Mainclass
 	{
        ArrayDs ref = new ArrayDs();
        ref.add(10);
-       ref.add(20);
+       ref.add(true);
        ref.add(30);
        ref.add("hello");
        ref.add(2.5);
