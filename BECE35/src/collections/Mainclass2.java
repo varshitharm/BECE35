@@ -1,6 +1,6 @@
 package collections;
 
-import java.util.ArrayList;
+import java.util.Vector;
 
 class Shoe
 {
@@ -49,7 +49,7 @@ class Book
 
 class Cart
 {
-	ArrayList crt = new ArrayList();
+	Vector crt = new Vector();
 	int index = 0;
 	int count = 0;
 	
@@ -81,7 +81,7 @@ public class Mainclass2
        Book b1 = new Book("java",250.45,"oracle");
        Shoe s1 = new Shoe("Puma",1422.4,"black");
        
-      
+      c1.addToCart(b1);
        
          
        

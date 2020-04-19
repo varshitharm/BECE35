@@ -30,11 +30,77 @@
    * List preserve insertion order.
    
    
+   ArrayList
    
+   * ArrayList can store duplicates.
+   * ArrayList has index.
+   * ArrayList support multiple null values.
+   * ArrayList preserve insertion order.
    
+   * Resizable array is the underlying Data Structure of ArrayList.
    
+   Constructors of ArrayList
    
+   ArrayList()
+   Constructs an empty list with an initial capacity of ten.
    
+   ArrayList(Collection c)
+   Constructs a list containing the elements 
+   of the specified collection.
+   
+   ArrayList(int initialCapacity)
+   Constructs an empty list with the specified initial capacity.
+   
+   Methods of ArrayList
+   
+   *
+   *
+   ..
+   
+   * ArrayList implementation is not synchronized. 
+   * ArrayList is NOT THREAD SAFE.
+   * If multiple threads access an ArrayList concurrently, 
+     and at least one of the threads modifies the list structurally, 
+     it will impact on other threads.
+  ------------------------------------------------------------------------ 
+   
+  Vector
+   
+   * Vector can store duplicates.
+   * Vector has index.
+   * Vector support multiple null values.
+   * Vector preserve insertion order.
+   
+   * Resizable array is the underlying Data Structure of Vector.
+   
+   * The increase of capacity can be controlled by the programmer
+     by specifying the capacityIncrement in the constructor.
+     
+   Constructors of Vector 
+     
+   Vector()
+   Constructs an empty vector so that its internal 
+   data array has size 10 and its standard 
+   capacity increment is zero.
+   
+   Vector(Collection c)
+   Constructs a vector containing the elements 
+   of the specified collection.
+  
+   Vector(int initialCapacity)
+   Constructs an empty vector with the specified 
+   initial capacity and with its capacity increment 
+   equal to zero.
+   
+   Vector(int initialCapacity, int capacityIncrement)
+   Constructs an empty vector with the specified initial 
+   capacity and capacity increment.
+   
+   * Vector implementation is synchronized. 
+   * Vector is THREAD SAFE.
+   * If multiple threads access an Vector concurrently, 
+     and at least one of the threads modifies the Vector structurally, 
+     it will NOT impact on other threads.
    
    
    
