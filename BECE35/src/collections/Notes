@@ -102,6 +102,31 @@
      and at least one of the threads modifies the Vector structurally, 
      it will NOT impact on other threads.
    
+----------------------------------------------------------------------
+   Set type of collection
+   
+   * Set do not store duplicates.
+   * Set don not have index.
+   * Set support to store ONLY ONE null values.
+   * Set do not preserve insertion order.
+   
+    
+   HashSet
+   
+   * HashSet do not store duplicates.
+   * HashSet don not have index.
+   * HashSet support to store ONLY ONE null values.
+   * HashSet do not preserve insertion order.
+   
+   * Underlying Data Structure of HashSet is Hash Table.
+   
+   
+   
+   
+   
+   
+   
+   
    
    
    
