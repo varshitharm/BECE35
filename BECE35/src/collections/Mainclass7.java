@@ -19,13 +19,13 @@ class Student implements Comparable<Student>
 	@Override
 	public String toString()
 	{
-		return name+" "+id;
+		return name+" "+id +" "+agg;
 	}
 
 	@Override
 	public int compareTo(Student othr) 
 	{
-		int res = id - othr.id;//-> + - 0
+		int res = id - othr.id;
 		return res;
 	}
 }
