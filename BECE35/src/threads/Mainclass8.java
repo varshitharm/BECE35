@@ -4,15 +4,15 @@ class Counter
 {
 	private int v1 = 0;
 	
-	public void increment()
+	synchronized public void increment()
 	{
 		v1++;
 	}
-	public void decrement()
+	synchronized public void decrement()
 	{
 		v1--;
 	}
-	public void showValue()
+	synchronized public void showValue()
 	{
 		System.out.println("v1= "+v1);
 	}
